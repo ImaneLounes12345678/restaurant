@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="cntc.css">
+</head>
+<body>
+    <div class="body">
+        <div class="d1">   
+            <nav>
+                <b> Restaurant Imane</b>
+                <a href="acceuil.html">acceuil</a>
+                <a href="menu.html">menu</a>
+                 <a href="contact.html">contact</a> </nav> 
+        
+             
+
+
+            <h1>RESERVATION</h1>
+            <img class="im" src="cn/rs.jpeg" alt="photo">
+       <div>
+    <p class="p">
+        Complétez le formulaire ci-dessous pour réserver une table. <br>
+         Celle-ci sera confirmée par email. 
+          Nous vous remercions de bien <br>
+          respecter les horaires d’arrivée afin 
+          de faciliter les services. 
+    </p>
+            
+                <!-- <legend><h2 >Formulaire</h2></legend> -->
+                <form action="/submit-reservation" method="post">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                
+                    <label for="telephone">Numéro de Téléphone:</label>
+                    <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}" placeholder="Format: 0123456789" required>
+                
+                    <label for="date">Date de Réservation:</label>
+                    <input type="date" id="date" name="date" required>
+                
+                    <label for="adresse">Adresse:</label>
+                    <textarea id="adresse" name="adresse" required></textarea>
+                
+                    <input type="submit" value="Réserver">
+                </form>
+
+
+
+
+
+
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40260.29223157097!2d2.399365281950527!3d48.936450015903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66b3f9c0c1865%3A0x9a5aeb7d5537e7f1!2sRestaurant%20iman!5e0!3m2!1sen!2sdz!4v1711558366163!5m2!1sen!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="fin">
+    <h2>Restaurant Imane</h2>
+  <footer>
+  
+    <img class="img" src="cn/p13.jpeg" alt="photo">
+    <a href="https://www.facebook.com/groups/339327840623705" target="_blank">Facebook</a>
+    <a href="" target="_blank">Instagram</a>
+    
+    
+</footer>
+  <p class="ad">56 Rue Edouard Vaillant, 93350 Le Bourget, France</p>
+</div>
+<div class="bland">
+
+</div>
+</body>
+</html>
