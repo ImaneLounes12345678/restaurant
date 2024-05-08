@@ -29,16 +29,15 @@ background-color: beige;
 }
 nav{
   padding-top: 20px;
-  padding-left: 80px;
+ padding-left: 100px;
 
 }
 a{
-    margin-left: 100px;
+    margin-right: 100px;
     font-style: oblique;
     font-size: 25px;
-    color: rgba(146, 116, 8, 0.696);
+    color: rgb(152, 117, 45);
     text-decoration: none;
-    font-weight: bold;
 }
 b{
     margin-right: 550px;
