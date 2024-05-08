@@ -29,7 +29,7 @@ background-color: beige;
 }
 nav{
   padding-top: 20px;
- padding-left: 80px;
+ padding-left: 100px;
 
 }
 a{
@@ -42,7 +42,7 @@ a{
 b{
     margin-right: 550px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
   color: rgba(236, 170, 38, 0.702);
 }
 .h1{
